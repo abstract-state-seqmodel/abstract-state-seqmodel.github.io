@@ -138,7 +138,7 @@
 <body>
 	<center>
 		<br>
-		<span style="font-size:36px "><b>Emergence of Abstract State Representations in <br> Embodied Sequence Modeling</b></span>
+		<span style="font-size:36px "><b>Emergence of Abstract State Representations <br> in Embodied Sequence Modelin</b></span>
 		<br>
 		<br>
 
@@ -147,65 +147,71 @@
 				<tr>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px">Tian Yun*</span>
+							<span style="font-size:24px"><a href="https://tttyuntian.github.io/">Tian Yun</a>*</span>
 							<br>
 							<span style="font-size:16px">Brown University</span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px">Zilai Zeng*</span>
+							<span style="font-size:24px"><a href="https://zilaiz.github.io/">Zilai Zeng</a>*</span>
 							<br>
 							<span style="font-size:16px">Brown University</span>
 						</center>
 					</td>
 					<td align=center width=100px>
 						<center>
-							<span style="font-size:24px">Kunal Handa</span>
-							<br>
-							<span style="font-size:16px">Brown University</span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px">Ashish V. Thapliyal</span>
-							<br>
-							<span style="font-size:16px">Google Research</span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px">Bo Pang</span>
-							<br>
-							<span style="font-size:16px">Google Research</span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px">Ellie Pavlick</span>
-							<br>
-							<span style="font-size:16px">Brown University</span>
-						</center>
-					</td>
-					<td align=center width=100px>
-						<center>
-							<span style="font-size:24px">Chen Sun</span>
+							<span style="font-size:24px"><a href="https://kunhanda.github.io/">Kunal Handa</a></span>
 							<br>
 							<span style="font-size:16px">Brown University</span>
 						</center>
 					</td>
 				</tr>
 			</table>
+			<br>
+			<table align=center width=800px>
+				<tr>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=1JtHXbAAAAAJ&hl=en">Ashish V. Thapliyal</a></span>
+							<br>
+							<span style="font-size:16px">Google Research</span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=qCdLtIoAAAAJ&hl=en">Bo Pang</a></span>
+							<br>
+							<span style="font-size:16px">Google Research</span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=sFyrSa8AAAAJ&hl=en">Ellie Pavlick</a></span>
+							<br>
+							<span style="font-size:16px">Brown University</span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://chensun.me/index.html">Chen Sun</a></span>
+							<br>
+							<span style="font-size:16px">Brown University</span>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<br>
 			<table align=center width=300px>
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<div class="buttons" style="margin-bottom: 8px;"><a class="btn btn-primary" role="button" href="https://abstract-state-seqmodel-seqmodel.github.io">Paper</a></div>
+							<div class="buttons" style="margin-bottom: 8px;"><a class="btn btn-primary" role="button" href="https://abstract-state-seqmodel.github.io">[Paper]</a></div>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<div class="buttons" style="margin-bottom: 8px;"><a class="btn btn-primary" role="button" href="https://github.com/brown-palm/abstract-state-seqmodel">Code</a></div>
+							<div class="buttons" style="margin-bottom: 8px;"><a class="btn btn-primary" role="button" href="https://github.com/brown-palm/abstract-state-seqmodel">[Code]</a></div>
 						</center>
 					</td>
 				</tr>
@@ -219,12 +225,14 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				Reinforcement learning via sequence modeling aims to mimic the success of language models, where actions taken by an embodied agent are modeled as tokens to predict. Despite their promising performance, it remains unclear if embodied sequence modeling leads to the emergence of internal representations that represent the environmental state information. A model that lacks abstract state representations would be liable to make decisions based on surface statistics which fail to generalize. We take the BabyAI environment, a grid world in which language-conditioned navigation tasks are performed, and build a sequence modeling Transformer, which takes a language instruction, a sequence of actions, and environmental observations as its inputs. In order to investigate the emergence of abstract state representations, we design a "blindfolded" navigation task, where only the initial environmental layout, the language instruction, and the action sequence to complete the task are available for training. <br>
+				Reinforcement learning via sequence modeling aims to mimic the success of language models, where actions taken by an embodied agent are modeled as tokens to predict. Despite their promising performance, it remains unclear if embodied sequence modeling leads to the emergence of internal representations that represent the environmental state information. A model that lacks abstract state representations would be liable to make decisions based on surface statistics which fail to generalize. We take the BabyAI environment, a grid world in which language-conditioned navigation tasks are performed, and build a sequence modeling Transformer, which takes a language instruction, a sequence of actions, and environmental observations as its inputs. In order to investigate the emergence of abstract state representations, we design a "blindfolded" navigation task, where only the initial environmental layout, the language instruction, and the action sequence to complete the task are available for training. 
+				<br><br>
 				Our probing results show that intermediate environmental layouts can be reasonably reconstructed from the internal activations of a trained model, and that language instructions play a role on the construction accuracy. Our results suggest that many key features of state representations can emerge via embodied sequence modeling, supporting an optimistic outlook for applications of sequence modeling objectives to more complex embodied decision-making domains.
 			</td>
 		</tr>
 	</table>
-	<br>
+
+	<br><hr>
 
 	<!-- <hr>
 	<center><h1>Video Presentation</h1></center>
@@ -235,37 +243,43 @@
 
 	<center><h1>BabyAI</h1></center>
 
-	<table align=center width=750px>
-		<tr>
-			<td align=center width=750px>
+	<table align=center width=400px>
+		<center><tr>
+			<td align=center width=650px>
 				<center>
-					<td><img class="round" style="width:750px" src="./resources/babyai_illustration.png"/></td>
+					<img class="round" style="width:650px" src="./resources/babyai_illustration.png"/>
 				</center>
 			</td>
-		</tr>
+		</tr></center>
 	</table>
 	<table align=center width=850px>
 		<center>
 			<tr>
 				<td>
-				We use the <a href="https://minigrid.farama.org/environments/babyai/index.html">BabyAI</a> environment as a testbed to investigate this. The goal in this environment is to control an agent to navigate and interact in an <em>N</em> by <em>N</em> grid to follow the given language instructions (e.g., "go to the yellow key").
+					<br> We use the <a href="https://minigrid.farama.org/environments/babyai/index.html">BabyAI</a> environment as a testbed to investigate whether embodied sequence modeling leads to the emergence of abstract internal representations of the environment. The goal in this environment is to control an agent to navigate and interact in an <em>N</em> by <em>N</em> grid to follow the given language instructions (e.g., "go to the yellow key").
 
-				<br><br>
-				Above is a demonstration of a language-conditioned navigation task in BabyAI <em>GoToLocal</em> level where an agent (i.e., red triangle) needs to navigate to the target objects specified in the given instructions. This is an example trajectory where the agent achieves the goal of "go to the grey key": (A) The board is randomly initialized with the agent and 8 objects. (B) The agent navigates in the environment to try to approach the target object. (C) The agent keeps navigating until it reaches the target object.
+					<br><br>
+					Above is a demonstration of a language-conditioned navigation task in BabyAI <em>GoToLocal</em> level where an agent (i.e., red triangle) needs to navigate to the target objects specified in the given instructions. This is an example trajectory where the agent achieves the goal of "go to the grey key": 
+					<ol type="A">
+						<li>The board is randomly initialized with the agent and 8 objects.</li>
+						<li>The agent navigates in the environment to try to approach the target object.</li>
+						<li>The agent keeps navigating until it reaches the target object.</li>
+					</ol>
 				</td>
 			</tr>
 		</center>
 	</table>
 
-	<br>
+	<br><hr>
 
 	<center><h1>Methods</h1></center>
 
-	<table align=center width=750px>
+	<table align=center width=400px>
 		<tr>
-			<td align=center width=750px>
+			<td align=center width=1000px>
 				<center>
-					<td><img class="round" style="width:750px" src="./resources/sequece_model_architecture.png"/></td>
+					<td><img class="round" style="width:600px" src="./resources/sequece_model_architecture.png"/></td>
+					<td><img class="round" style="width:400px" src="./resources/probing_pipline.png"/></td>
 				</center>
 			</td>
 		</tr>
@@ -274,35 +288,161 @@
 		<center>
 			<tr>
 				<td>
-					WIP.
+					We build our embodied sequence modeling framework with a Transformer-based architecture, in which we can process heterogeneous data (e.g. natural language instructions, states and actions) as sequences and autoregressively model the state-action trajectories with causal attention masks.
+					<br><br>
+					Once we have models trained to perform a language-conditioned navigation task, we train simple classifiers as probes to explore whether the internal activations of a trained model contain representations of abstract environmental states (e.g., current board layouts). If the trained probes can accurately reconstruct the current state when it is not explicitly given to the model, it suggests that abstract state representations can emerge during model's pretraining. 
+					<br><br>
+					We introduce two sequence modeling setups in BabyAI, namely the <b>Regular setup</b> and the <b>Blindfolded setup</b>. 
+					<ul>
+						<li><b>Regular Setup</b>: The objective is to predict next actions based on all the information at the current and the previous steps provided explicitly including intermediate states which are computed using the BabyAI environment.</li>
+						<li><b>Blindfolded Setup</b>: The objective is to predict next actions based on the language instruction, prior actions, and only the initial state. By comparing state reconstruction task and task completion performance of this setup against the regular setup, we hope to gain insights into whether these sequence models are able to internally reconstruct the intermediate states implicitly in order to determine the right next actions to take. </li>
+					</ul>
+				</td>
+			</tr>
+		</center>
+	</table>
+	
+	<hr>
+
+	<center><h1>Results</h1></center>
+
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					We train a sequence model which simulates the regular setup and blindfolded setup of sequence modeling in BabyAI, named as <em>Complete-State Model</em> and <em>Missing-State Model</em> respectively. 
+					<br>
+					<em>Randomly initialized baseline</em> is a probe trained on a sequence model with random weights.
+					<br>
+					<em>Initial state baseline</em> to always predict the initial state, without considering the actions taken by the agent. 
+				</td>
+			</tr>
+		</center>
+	</table>
+	<br>
+
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					<b>1. Role of Intermediate State Observations in the Emergence of State Representations</b>
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=400px>
+		<tr>
+			<td align=center width=1000px>
+				<center>
+					<td><img class="round" style="width:600px" src="./resources/gotolocal_roles_of_states.png"/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					We  perform probing on the internal activations of a pretrained Complete-State model and a pretrained Missing-State model.
+					For Complete-State model, while the current state is explicitly fed to the model as part of its input, the poor performance of the randomly initialized weights confirms that this information is not trivially preserved in its internal activations - the model needs to be properly pretrained for that to happen. For Missing-State model, even though the current states are not explicitly given, they can be reconstructed reasonably well from the model's internal representations.
 				</td>
 			</tr>
 		</center>
 	</table>
 	
 	<br>
-	<hr>
+
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					<b>2. Role of Language Instructions in the Emergence of State Representations</b>
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=400px>
+		<tr>
+			<td align=center width=1000px>
+				<center>
+					<td><img class="round" style="width:600px" src="./resources/gotolocal_roles_of_instructions.png"/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					To study how language instructions impact the emergence of internal representations of states, we pretrain a Complete-State model and a Missing-State model without passing in language instructions. 
+					When the language instruction is absent during pretraining, the models struggle to recover state information as accurately as the models trained with language instructions, which reflects that language instructions play an important role in the emergence of internal state representations.
+				</td>
+			</tr>
+		</center>
+	</table>
+	
+	<br>
+	
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					<b>3. Blindfolded Navigation Performance</b>
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=400px>
+		<tr>
+			<td align=center width=1000px>
+				<center>
+					<td><img class="round" style="width:600px" src="./resources/gotolocal_navigation_performance.png"/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					We further explore the practical implications of the emergence of internal state representations by evaluating pretrained Complete- and Missing-State models on GoToLocal. 
+					We observe that Missing-State model performs competitively against Complete-State model, even though Missing-State model only has access to the non-initial/last states during its training. This aligns with our expectation that a model which learns internal representations of states can utilize such representations to predict next actions. 
+				</td>
+			</tr>
+		</center>
+	</table>
+	
+	<br><hr>
+
 	<table align=center width=650px>
-		<center><h1>Paper and Supplementary Material</h1></center>
+		<center><h1>Paper and BibTex</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
-			<td><span style="font-size:14pt">Tian Yun*, Zilai Zeng, Kunal Handa, Ashish V. Thapliyal, Bo Pang, Ellie Pavlick, Chen Sun.<br>
-				<b>Emergence of Abstract State Representations in Embodied Sequence Modeling</b><br>
-				In EMNLP 2023.<br>
+			<td><span style="font-size:14pt">Tian Yun*, Zilai Zeng*, Kunal Handa, Ashish V. Thapliyal, Bo Pang, Ellie Pavlick, Chen Sun.<br>
+				<b>Emergence of Absrtract State Representations in Embodied Sequence Modeling</b><br>
+				In TMLR.<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
 				</span>
 			</td>
 		</tr>
 	</table>
-	<br>
+	<br><br>
 
-	<table align=center width=600px>
-		<tr>
-			<td><span style="font-size:14pt"><center>
-				<a href="./resources/bibtex.txt">[Bibtex]</a>
-			</center></td>
-		</tr>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td style="background-color:#e1e1e1">
+					<pre><code>
+  @inproceedings{zeng2023gcpc,
+	title={Emergence of Abstract State Representations in Embodied Sequence Modeling},
+	author={Yun, Tian and Zeng, Zilai and Handa, Kunal and Thapliyal, Ashihs V. and Pang, Bo and Pavlick, Ellie and Sun, Chen},
+	booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  }
+					</code></pre>
+				</td>
+			</tr>
+		</center>
 	</table>
 
 	<hr>
@@ -313,9 +453,9 @@
 			<td width=400px>
 				<left>
 					<center><h1>Acknowledgements</h1></center>
-					We would like to thank anonymous reviewers for their detailed and constructive comments. We are very grateful to Xi Chen, Sebastian Goodman, and Radu Soricut for useful discussions . We appreciate Kenneth Li for helpful feedback on probing experiments and further conversation about potentials of the project. We thank Haotian Fu, Apoorv Khandelwal, Michael Lepori, Calvin Luo, and Jack Merullo for the help on the project. Part of the work was done while Tian Yun was a student researcher at Google Research. This project is in part supported by Samsung Advanced Institute of Technology.
+					We would like to thank the anonymous reviewers for their detailed and constructive comments. We are very grateful to Xi Chen, Sebastian Goodman, and Radu Soricut for useful discussions . We appreciate Kenneth Li for helpful feedback on probing experiments and further conversation about potentials of the project. We thank Haotian Fu, Apoorv Khandelwal, Michael Lepori, Calvin Luo, and Jack Merullo for the help on the project. Part of the work was done while Tian Yun was a student researcher at Google Research. This project is in part supported by Samsung Advanced Institute of Technology, and a Richard B. Salomon Faculty Research Award for C.S.
 
-					<br>
+					<br><br>
 					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
 				</left>
 			</td>
